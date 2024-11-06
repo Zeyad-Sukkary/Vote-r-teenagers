@@ -16,7 +16,7 @@ body, main {
   
     .HeaderTitle {
       text-align: center;
-      font-size: 30px;
+      font-size: 100%;
       text-decoration: none;
       margin: 0 auto;
       position: absolute;
@@ -132,7 +132,7 @@ body, main {
         padding: 100px 0;
         border-radius: 20px;
         box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.15);
-        margin-top: 40px;
+        margin-top: 100px;
         transition: all 0.2s, background-color 2.5s;
       }
     
@@ -180,9 +180,46 @@ body, main {
         box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.05);
       }
 
+.vote-LeaderBoard{
+  background-color: hsl(271, 48%, 40%);
+  overflow: hidden; 
+  padding-top: 50px;
+padding-bottom: 30px;
+box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.05);
+margin-top: 20px;
+margin-bottom: 40px;
+border-radius: 10px;
+display: grid;
+grid-template-columns: 40px 2fr 2fr 1fr; 
+column-gap: 10px;
+row-gap: 10px;
+}
 
+.vote-LeaderBoard .pfp {
+  background-color: rgb(0, 0, 0);
+  border-radius: 8px;
+height: 40px;
+}
 
+.vote-LeaderBoard .Name {
+  border-radius: 8px;
+  margin-right: 30px;
+  background-color: rgb(0, 0, 0);
+}
        
+.vote-LeaderBoard .vote-number {
+  background-color: rgb(0, 0, 0);
+  border-radius: 8px;
+text-align: center;
+}
+
+.vote-LeaderBoard .position {
+  background-color: rgb(0, 0, 0);
+  border-radius: 8px;
+  text-align: center;
+}
+
+
   .canditate {
     background-color: #748faa;
     border-radius: 10px;
@@ -213,9 +250,9 @@ border-color: #91b0cf;
 
   footer {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: -8px;
-    padding: 15px;
+    margin-top: 35px;
+    margin-bottom: -15px;
+    padding: 10px;
     background-color: hsl(290, 38%, 47%);
     background-image: 
        radial-gradient(at 0% 50%, rgb(133, 37, 197) 0px, transparent 50%),
@@ -327,6 +364,7 @@ border-color: #91b0cf;
       z-index: 99;
       font-size: 18px;
       border: none;
+      padding: 10px;
       outline: none;
       align-items: center;
       background-color: hsl(160, 56%, 42%);
