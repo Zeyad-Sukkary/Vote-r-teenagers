@@ -52,3 +52,18 @@ window.addEventListener('load', () => {
     
     
     
+
+
+    const input = document.getElementById("hovertext");
+
+
+const originalPlaceholder = input.placeholder;
+
+input.addEventListener("mouseover", function() {
+    input.placeholder = "Example: user123";
+});
+
+
+input.addEventListener("mouseout", function() {
+    input.placeholder = originalPlaceholder;
+});
