@@ -13,13 +13,7 @@ body, main {
       transition: all 0.2s;
     }
   
-    .sponsoredheader {
-    vertical-align: top;
-    font-size: 10px;
-    color: black;
-  }
-
-
+  
     .HeaderTitle {
       text-align: center;
       font-size: 100%;
@@ -200,10 +194,12 @@ display: grid;
 grid-template-columns: 40px 2fr 2fr 1fr; 
 column-gap: 10px;
 row-gap: 10px;
+vertical-align: middle;
+
 }
 
 .vote-LeaderBoard .pfp {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(46, 46, 46);
   border-radius: 8px;
 height: 40px;
 }
@@ -211,17 +207,18 @@ height: 40px;
 .vote-LeaderBoard .Name {
   border-radius: 8px;
   margin-right: 30px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(46, 46, 46);
+
 }
        
 .vote-LeaderBoard .vote-number {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(46, 46, 46);
   border-radius: 8px;
 text-align: center;
 }
 
 .vote-LeaderBoard .position {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(46, 46, 46);
   border-radius: 8px;
   text-align: center;
 }
@@ -239,7 +236,34 @@ align-items: center;
 border-color: #91b0cf;
   }
 
+.top1{
+  background-color: rgb(233, 201, 23) !important; 
+}
 
+.top2{
+  color: #ffffff;
+  background-color: rgb(221, 221, 221) !important;
+}
+
+.top3{
+  background-color: rgb(148, 75, 46) !important;
+}
+
+.top4{background-color: gray !important;
+}
+
+.top5{background-color: rgb(87, 87, 87) !important;
+}
+
+.top9 {
+  background-color: rgb(19, 19, 19) !important;
+
+}
+
+.top10 {
+  background-color: rgb(0, 0, 0) !important;
+
+}
 
   .canditate:hover{
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1);
@@ -331,7 +355,11 @@ border-color: #91b0cf;
   align-items: center;
   }
   
-  
+  .sponsoredheader {
+    vertical-align: top;
+    font-size: 10px;
+    color: black;
+  }
   
     .slide-in-left {
       opacity: 0;
